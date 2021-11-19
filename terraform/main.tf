@@ -3,6 +3,9 @@ provider "google" {
   region  = "asia-east1"
   zone    = "asi-east1-b"
 }
+
+//adding firewall rule for port 80
+  
 resource "google_compute_firewall" "allow_http" {
   name    = "allow-http-rule"
   network = "default"
@@ -15,6 +18,8 @@ resource "google_compute_firewall" "allow_http" {
   priority    = 1000
 
 }
+ 
+  //creating template
 
 resource "google_compute_instance_template" "tpl" {
   name         = "lamptemplate"
@@ -42,6 +47,8 @@ resource "google_compute_instance_template" "tpl" {
   }
 }
 
+  //creating managed instance group with the help of template
+  
 resource "google_compute_instance_group_manager" "instance_group_manager" {
   name               = "mediawiki-group-manager"
 version {
