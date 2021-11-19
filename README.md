@@ -67,6 +67,8 @@ screenshots:
 
 
 ==========================================================================================================================================================================
+
+
 FUTURE ENHANCEMENTS:
 
 1. USING SOFT CODING WITH THE HELP OF VARIABLES FILE FOR IMAGE.JSON AND MAIN.TF
