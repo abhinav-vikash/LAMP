@@ -56,6 +56,7 @@ The Json file will be created which we need to keep it secure.
 16. for Blue green deployment we can specify several version templates in terraform-file <main.tf> and can also assing how many vms will be alligned to which version template.
 
 screenshots:
+
 1.![image](https://user-images.githubusercontent.com/69305821/142619887-90db4439-20a0-489b-8c24-6fb2860aa95f.png)
 2.![image](https://user-images.githubusercontent.com/69305821/142620637-ef131ad1-053c-48f2-b012-8b710268f1cc.png)
 3.![image](https://user-images.githubusercontent.com/69305821/142623119-9f543ce0-c867-4109-8bc3-d33163b2b827.png)
@@ -65,7 +66,13 @@ screenshots:
 7.![image](https://user-images.githubusercontent.com/69305821/142622007-d9719ae1-7fc6-4e7b-8455-60ca5c6e0a7c.png)
 
 
+==========================================================================================================================================================================
+FUTURE ENHANCEMENTS:
 
+1. USING SOFT CODING WITH THE HELP OF VARIABLES FILE FOR IMAGE.JSON AND MAIN.TF
+2. CREATING LOADBALANCER FOR MORE THAN ONE INSTSTANCES IN MIG
+3. USING CLOUD CDN FOR CACHING
+4. ESTABLISH ALERTING POLICIES AND UPTIME CHECKS FOR MIG
 
 
 
